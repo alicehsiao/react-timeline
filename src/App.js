@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">{timelineData.person}'s Feed</h1>
+          <h1 className="App-title">{timelineData.person}&apos;s Feed</h1>
         </header>
         <main className="App-main">
           <Timeline events={timelineData.events}/>
